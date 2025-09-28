@@ -26,9 +26,8 @@ const Register = () => {
                     .then(() => { })
                     .catch(error => console.log(error));
                 toast('User Register Successfully');
-                form.reset();
+                e.target.reset();
                 navigate('/');
-
             }
         )
     }
