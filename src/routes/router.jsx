@@ -7,39 +7,48 @@ import Dashboard from '../pages/Dashboard';
 import CampaignDetails from '../component/CampaignDetails';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
+import AuthLayout from '../layouts/AuthLayout';
+import PrivateRoute from './PrivateRoute';
 
 const router = createBrowserRouter([
-    { 
-        path: '/', 
+    {
+        path: '/',
         element: <HomeLayout></HomeLayout>
     },
-    { 
-        path: '/donation', 
+    {
+        path: '/donation',
         element: <Donation></Donation>,
         loader: () => fetch('/campaignData.json')
     },
-    { 
-        path: '/campaindetails/:id', 
-        element: <CampaignDetails></CampaignDetails>,
+    {
+        path: '/campaindetails/:id',
+        element: <PrivateRoute><CampaignDetails></CampaignDetails></PrivateRoute>,
         // loader: ({params}) => fetch(`/campaignData.json/${params.id}`)
         loader: () => fetch('/campaignData.json')
     },
-    { 
-        path: '/help', 
+    {
+        path: '/help',
         element: <Help></Help>
     },
-    { 
-        path: '/dashboard', 
-        element: <Dashboard></Dashboard>
+    {
+        path: '/dashboard',
+        element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>
     },
-    { 
-        path: '/login', 
-        element: <Login></Login>
+    {
+        path: '/auth',
+        element: <AuthLayout></AuthLayout>,
+        children : [
+            {
+                path: 'login',
+                element: <Login></Login>
+            },
+            {   
+                path: 'register',
+                element: <Register></Register>
+            }
+        ]
     },
-    { 
-        path: '/register', 
-        element: <Register></Register>
-    },
+    
 ])
 
 export default router;

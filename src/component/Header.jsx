@@ -53,7 +53,7 @@ const Header = () => {
                         </div>                         
                         : 
                         <>
-                            <Link to="/login" className="btn">Login</Link>
+                            <Link to="/auth/login" className="btn">Login</Link>
                         </>
                 }
                 
