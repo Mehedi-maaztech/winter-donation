@@ -1,12 +1,17 @@
-import getAuth from "firebase/auth";
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBz3cuLjKfRn7TLmSbHPWYs8o-mRCajXDo",
-  authDomain: "winter-donation-13812.firebaseapp.com",
-  projectId: "winter-donation-13812",
-  storageBucket: "winter-donation-13812.firebasestorage.app",
-  messagingSenderId: "872887067697",
-  appId: "1:872887067697:web:239bb26e58b683c8b1a110"
+  apiKey: "AIzaSyDjUlnyM-e8i4ypGdjH6r4yFupytonJtb8",
+  authDomain: "winter-donation-5acb2.firebaseapp.com",
+  projectId: "winter-donation-5acb2",
+  storageBucket: "winter-donation-5acb2.firebasestorage.app",
+  messagingSenderId: "565777089033",
+  appId: "1:565777089033:web:adef01d401d98ba0e52ed8"
 };
 
 // Initialize Firebase

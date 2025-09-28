@@ -5,6 +5,8 @@ import Donation from '../pages/Donation';
 import Help from '../pages/Help';
 import Dashboard from '../pages/Dashboard';
 import CampaignDetails from '../component/CampaignDetails';
+import Login from '../pages/Login';
+import Register from '../pages/Register';
 
 const router = createBrowserRouter([
     { 
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
     { 
         path: '/dashboard', 
         element: <Dashboard></Dashboard>
+    },
+    { 
+        path: '/login', 
+        element: <Login></Login>
+    },
+    { 
+        path: '/register', 
+        element: <Register></Register>
     },
 ])
 
