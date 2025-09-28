@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Warm Hearts Winter Drive",
+    "image": "https://i.ibb.co.com/8gJ83BvW/1.jpg",
+    "description": "Collecting warm clothes and blankets to support families living in remote villages during the harsh winter season.",
+    "status": "Active",
+    "contactInfo": "warmhearts@help.org | +8801712345678",
+    "division": "Dhaka"
+  },
+  {
+    "id": 2,
+    "title": "Sylhet Flood Relief 2025",
+    "image": "https://i.ibb.co.com/vCQRWrdV/2.jpg",
+    "description": "Providing food, medicine, and temporary shelters for those affected by the recent floods in Sylhet.",
+    "status": "Active",
+    "contactInfo": "relief@sylhetcare.org | +8801987654321",
+    "division": "Sylhet"
+  },
+  {
+    "id": 3,
+    "title": "Chattogram Coastal Aid",
+    "image": "https://i.ibb.co.com/S444m7Vt/3.jpg",
+    "description": "Supplying clean water and hygiene kits to coastal communities impacted by rising tides and water contamination.",
+    "status": "Ongoing",
+    "contactInfo": "coastal.aid@chattogramhelp.org | +8801711223344",
+    "division": "Chattogram"
+  },
+  {
+    "id": 4,
+    "title": "Khulna Tree Plantation Project",
+    "image": "https://i.ibb.co.com/gbDPL8KD/4.jpg",
+    "description": "Raising funds for large-scale mangrove tree plantation to combat climate change and protect Sundarbans wildlife.",
+    "status": "Upcoming",
+    "contactInfo": "green.kh@ecoplanet.org | +8801922334455",
+    "division": "Khulna"
+  },
+  {
+    "id": 5,
+    "title": "Rajshahi Education for All",
+    "image": "https://i.ibb.co.com/chLqsg54/5.jpg",
+    "description": "Donating school supplies, uniforms, and books to underprivileged children in rural Rajshahi areas.",
+    "status": "Active",
+    "contactInfo": "edu4all@rajshahihelp.org | +8801712556677",
+    "division": "Rajshahi"
+  },
+  {
+    "id": 6,
+    "title": "Barishal Medical Aid",
+    "image": "https://i.ibb.co.com/QjYGMZNH/6.jpg",
+    "description": "Supporting mobile health clinics to provide emergency treatment to cyclone-affected villages.",
+    "status": "Completed",
+    "contactInfo": "barishal.med@reliefzone.org | +8801999888777",
+    "division": "Barishal"
+  },
+  {
+    "id": 7,
+    "title": "Mymensingh Orphan Care",
+    "image": "https://i.ibb.co.com/YBtFqFhn/7.jpg",
+    "description": "Providing daily meals, clothing, and education to orphaned children in Mymensingh.",
+    "status": "Active",
+    "contactInfo": "orphan.care@mymhelp.org | +8801888123456",
+    "division": "Mymensingh"
+  },
+  {
+    "id": 8,
+    "title": "Rangpur Winter Blanket Drive",
+    "image": "https://i.ibb.co.com/KpRHWKmx/8.jpg",
+    "description": "Distributing warm blankets and jackets to families suffering in the northern cold waves of Rangpur.",
+    "status": "Ongoing",
+    "contactInfo": "blanketdrive@rangpur.org | +8801713445566",
+    "division": "Rangpur"
+  }
+]
